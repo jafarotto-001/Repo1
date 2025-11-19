@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .category-box {
+        padding: 30px;
+        text-align: center;
+        border-radius: 15px;
+        background: #f2f2f2;
+        cursor: pointer;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .category-box:hover {
+        background: #ddd;
+        transform: scale(1.05);
+    }
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center;">Shop by Category</h2>
+
+<div class="categories">
+    <a href="mobile.html" class="category-box">📱 Mobile</a>
+    <a href="fashion.html" class="category-box">👗 Fashion</a>
+    <a href="grocery.html" class="category-box">🛒 Grocery</a>
+    <a href="electronics.html" class="category-box">⚡ Electronics</a>
+    <a href="home.html" class="category-box">🏠 Home & Furniture</a>
+</div>
+
+</body>
+</html>
